@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 20px;
+}
+
+table{
+	border: 1px solid #DDDDDD;
+	border-collapse: collapse;
+	border-spacing: 15px;
+	width: 600px;
+	padding: 8px;
+	font-family: arial;
+	margin: auto;
+}
+td{
+	border: 1px solid #DDDDDD;
+}
+#tr1,#tr2,#tr3,#tr4,#tr5{
+	border: 1px solid #DDDDDD;
+}
+#tr6{
+	border-top:  2px solid #DDDDDD;
+}
+
+th{
+	padding: 10px;
+	text-align: center;
+	font-size: 13px;
+	color: #999999;
+
+}
+
+#p1, #p2, #p3 {
+	color: #003366;
+	font-size: 18px;
+	text-align: center;
+}
+
+#p4{
+	color: #1398BE;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+#p5, #p6{
+	color: #DE9800;
+	font-size: 18px;
+	text-align: center;
+
+}
+
+#t1, #t2, #t3, #t4, #t5, #t6 {
+	font-size: 14px;
+	color: #666666;
+	text-align:left;
+}
+
+#po1, #po2, #po3, #po4, #po5, #po6 {
+	font-size: 14px;
+	color: #666666;
+	text-align:center;
+	background-color: #F7F7F7;
+	font-weight:bold;
+}
+
+#cc1, #cc2, #cc3, #cc4, #cc5, #cc6, #cc7, #cc8,
+#cc9, #cc10, #cc11, #cc12, #cc13, #cc14, #cc15, #cc16,
+#cc17, #cc18, #cc19, #cc20, #cc21, #cc22, #cc23, #cc24
+{
+	background-color: #F7F7F7;
+	text-align: center;
+	margin: 20px;
+	
+	
+
+}
+#sc1, #sc2, #sc3, #sc4, #sc5, #sc6, #sc7, #sc8,
+#sc9, #sc10, #sc11, #sc12, #sc13, #sc14, #sc15, #sc16,
+#sc17, #sc18, #sc19, #sc20, #sc21, #sc22, #sc23, #sc24{
+	text-align: center;
+}
+
+
