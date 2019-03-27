@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+
+	background-color: #DCDCDC;
+
+}
+
+#cabecalho{
+
+	background-color:#1E90FF;
+	text-align: center;
+	padding: 15px;
+	text-align: center;
+	height:100px;
+
+}
+
+#logo{
+
+	padding: 10px
+}
+
+#menu{
+
+	padding: 15px;
+	background-color: #4682B4;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	padding: 8px 12px;
+	color: white;
+}
+#paragrafo{
+	
+	width: 1338px;
+	height: 200px;
+	background-color: white;
+	margin:20px 20px 10px 10px;
+}
+p{
+	text-align: justify;
+	padding: 5px;
+}
+
+h2{
+	text-align: center;
+	margin: 5px;
+	padding: 15px;
+}
