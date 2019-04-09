@@ -1,0 +1,196 @@
+*{
+	margin:  0px;
+	padding: 0px;
+}
+body{
+	padding: 10px;
+}
+div{
+	margin: 0px auto 0px auto;
+	padding: 10px;
+	width:  98%;
+	height: 70%;
+}
+header{
+	background: #ec1c24;
+	width: 98%;
+	height:110px;
+	margin:10px;
+	display: block;
+}
+p{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding: 20px;	
+}
+nav{
+	background: #f7a623;
+	width: 98%;
+	height: 110px;
+	margin: 10px;
+	display: block;
+}
+
+section{
+	background: #4aa884;
+	width: 60%;
+	height:255px;
+	margin: 10px;
+	display: inline-block;
+}
+article{
+	background: #7ed320;
+	width: 90%;
+	height:55px;
+	margin: 10px;
+	margin-left: 40px;
+	position: relative;
+
+}
+
+aside{
+	background: #488fe1;
+	width: 33%;
+	height:255px;
+	float: right;
+	margin-right: 10px;
+	margin: 10px;
+}
+footer{
+	
+	background: #9c9c9c;
+	width: 98%;
+	height:110px;
+	margin: 10px;
+	display: block;
+}
+
+/**tela pequena**/
+@media only screen and (max-width: 560px){
+header{
+	background: #ec1c24;
+	width: 95%;
+	height: 80px;
+	display: block;
+}
+p{
+	font-size: 150%;	
+}
+nav{
+	background: #f7a623;
+	width: 95%;
+	height: 80px;
+	display: block;
+}
+section{
+	background: #4aa884;
+	width: 95%;
+	height:350px;
+	display: inline-block;
+}
+article{
+	background: #7ed320;
+	width: 80%;
+	height:70px;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+aside{
+	width: 95%;
+	height: 350px;
+	background: #488fe1;
+	float: none;
+	display: block;
+}
+footer{
+	background: #9c9c9c;
+	width: 95%;
+	height:80px;
+	display: block;
+}
+
+}
+/**tela media**/
+@media only screen and (min-width: 561px ) and (max-width: 960px){
+header{
+	background: #ec1c24;
+	width: 95%;
+	height:100px;
+	display: block;
+}
+p{
+	font-size: 150%;	
+}
+nav{
+	background: #f7a623;
+	width: 95%;
+	height:100px;
+	display: block;
+}
+
+section{
+	background: #4aa884;
+	width: 95%;
+	height:380px;
+	display: block;
+}
+article{
+	background: #7ed320;
+	width: 80%;
+	height:55px;
+	margin-left: 30px;
+}
+
+aside{
+	background: #488fe1;
+	width: 95%;
+	height:380px;
+	float: none;
+	display: block;
+}
+footer{
+	background: #9c9c9c;
+	width: 95%;
+	height:100px;
+	display: block;
+}
+
+}
+/**tela grande**/
+@media only screen and (min-width: 961px){
+	header{
+	background: #ec1c24;
+	width: 98%;
+}
+p{
+	font-size: 150%;
+	text-align: center;	
+}
+nav{
+	background: #f7a623;
+	width: 98%;
+}
+section{
+	background: #4aa884;
+	width: 60%;
+	height:255px;
+}
+article{
+	background: #7ed320;
+	width: 90%;
+	height:55px;
+	margin-left: 40px;
+}
+
+aside{
+	background: #488fe1;
+	width: 33%;
+	height:255px;
+}
+footer{
+	background: #9c9c9c;
+	width: 98%;
+}
+}
